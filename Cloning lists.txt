@@ -1,0 +1,10 @@
+def Cloning(li1):
+    li_copy = li1[:]
+    return li_copy
+
+
+li1 = [4,8,2,19,15,19]
+li2 = Cloning(li1)
+
+print("Original list: ",li1)
+print("After cloning list: ",li2,li1)

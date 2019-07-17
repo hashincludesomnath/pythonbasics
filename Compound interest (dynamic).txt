@@ -1,0 +1,10 @@
+def compound_interest(principal, rate, time):
+
+    CI = principal * pow((1+rate/100), time)
+    print("Compound interest is ",CI)
+
+p = float(input("Enter principal amount: "))
+r = float(input("Enter rate of interest: "))
+t = float(input("Enter compounding time: "))
+
+compound_interest(p,r,t)

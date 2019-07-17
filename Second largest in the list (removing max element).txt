@@ -1,0 +1,7 @@
+list1 = [20,14,23,66]
+
+new_list = set(list1)
+
+new_list.remove(max(new_list))
+
+print(max(new_list))

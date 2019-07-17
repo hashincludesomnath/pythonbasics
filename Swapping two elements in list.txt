@@ -1,0 +1,9 @@
+def swapPositions(list, pos1, pos2):
+    list[pos1], list[pos2] = list[pos2], list[pos1]
+    return list
+
+List = [23, 45, 22, 12, 60]
+
+pos1, pos2 = 1,2
+
+print(swapPositions(List, pos1-1, pos2-1))

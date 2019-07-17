@@ -1,0 +1,6 @@
+def findArea(r):
+    PI = 3.14
+    return PI * (r ** 2)
+
+rad = float(input("Enter radius of circle to find area:  "))
+print("Area of circle is: ", findArea(rad))

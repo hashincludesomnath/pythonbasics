@@ -1,0 +1,3 @@
+List = ["Hello", "Geeks"]
+
+print("The length of list is: ",len(List))

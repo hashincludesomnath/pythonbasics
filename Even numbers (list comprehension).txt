@@ -1,0 +1,5 @@
+list1 = [10, 25, 66, 4, 89]
+
+even_nos = [num for num in list1 if num % 2 == 0]
+
+print("Even numbers in the list: ", even_nos)

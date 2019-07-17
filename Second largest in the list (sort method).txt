@@ -1,0 +1,5 @@
+list1 = [10,25,4,35,99]
+
+list1.sort()
+
+print("Second largest element is: ", list1[-2])

@@ -1,0 +1,3 @@
+list1 = [10,25,23,36,66]
+
+print("Largest element is: ",max(list1))

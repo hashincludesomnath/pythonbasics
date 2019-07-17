@@ -1,0 +1,6 @@
+list1 = [12,26,99,34,57]
+
+for num in list1:
+
+    if num % 2 == 0:
+        print(num, end = " ")
